@@ -13,6 +13,9 @@
     color: rgb(9, 78, 50);
 }
 
+.bg-violeta{
+    background-color: rgb(152, 75, 224);
+}
 ul {
     list-style: none;
 }
@@ -46,56 +49,15 @@ a {
     font-size: 3vw;
     background-color:rgba(237, 234, 240, 0.616);
     border-radius: 5px;
-    padding: 7px;
 }
-
-.productos-tit {
-    text-align: center;
-    text-decoration: underline;
-    background-color: rgb(152, 75, 224);
-    font-size: 3rem;
+.imgc{
+    width: 180px;
+    height: 180px;
+    object-fit: cover;
 }
-
-.tarjeta {
-    background-color: rgb(152, 75, 224);
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-
+.b-g{
+    border:solid rgb(99, 97, 97)
 }
-
-
-.productos-combos {
-    background-color: rgba(237, 234, 240, 0.616);
-    margin: 6px;
-    padding: 5px;
-    display: flex;
-    flex-direction: column;
-    border: 3px solid rgb(99, 97, 97);
-    width: 190px;
-    height: 350px;
-    border-radius: 10px;
-    padding: 20 px;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    text-align: center;
-    align-items: center;
-
-}
-
-.tarjeta_tit {
-    margin-top: 7px;
-    font-weight: bold;
-    text-decoration: underline;
-    background-color: rgba(237, 234, 240, 0.616);
-    border-radius: 5px;
-}
-
-img {
-    width: 140px;
-}
-
 .btn {
     margin-bottom: 7px;
     border: 2px;
