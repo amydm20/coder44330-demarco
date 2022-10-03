@@ -9,12 +9,11 @@
     background-color: rgba(103, 103, 219, 0.863);
 }
 
-.text-verde {
-    color: rgb(9, 78, 50);
-}
-
 .bg-violeta{
     background-color: rgb(152, 75, 224);
+}
+.bg-violeta1{
+   background-color: rgba(237, 234, 240, 0.616);
 }
 ul {
     list-style: none;
@@ -30,7 +29,6 @@ header nav {
 
 a {
     text-decoration: none;
-    color: rgb(9, 78, 50);
 }
 
 .portada {
@@ -58,24 +56,12 @@ a {
 .b-g{
     border:solid rgb(99, 97, 97)
 }
-.btn {
-    margin-bottom: 7px;
-    border: 2px;
-    border-color: rgb(130, 51, 204);
-    background-color: rgb(130, 51, 204);
-    color: rgb(237, 234, 240);
-    border-radius: 8px;
-    padding: 10px;
-
+.c-blanco{
+    color: antiquewhite;
 }
-
-.btn:hover {
-    border: 3px rgb(130, 51, 204);
-    background-color: rgb(237, 234, 240);
-    color: rgb(130, 51, 204);
+.c-negro{
+    color: black;
 }
-
-
 
 /* pagina contacto */
 .contacto {
@@ -194,26 +180,10 @@ iframe {
 
 /* footer */
 
-footer {
+/* footer {
     background-color: rgb(103, 103, 219);
     color: rgb(9, 78, 50);
     display: flex;
     justify-content: space-around;
     align-items: center;
-}
-
-.iconotel {
-    width: 30px;
-}
-
-.iconoface {
-    width: 30px;
-}
-
-.iconoinsta {
-    width: 30px;
-}
-
-.iconotwitter {
-    width: 30px;
-}
+} */
