@@ -84,19 +84,14 @@ a {
 }
 
 /* zona y dia de entrega */
-.entregas {
-    background-color: rgba(130, 51, 204, 0.397);
-    text-align: center;
-    font-size: 2rem;
-}
 
-video {
+/* video {
     height: 40vh;
-}
+} */
 
-iframe {
-    height: 40vh;
-}
+/* iframe {
+    height: 50vh;
+} */
 
 /* preguntas-frecuentes */
 .faq {

@@ -6,7 +6,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contacto-Healthy Lunch</title>
-    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <link rel="stylesheet" href="../icons/">
     <link rel="stylesheet" href="../css/styles.css">
 </head>
 <main>
@@ -16,61 +17,89 @@
 </main>
 
 <body>
-    <header>
-        <h1><a href="../index.html"> Healthy Lunch</a></h1>
+    <nav class="navbar navbar-expand-lg bg-lila1">
+        <div class="container">
+            <a class="navbar-brand fs-2" href="./index.html">Healthy Lunch</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02"
+                aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
 
-        <nav>
-            <ul>
-                <li><a href="../pages/nuestras-opciones.html">Nuestras opciones</a></li>
-                <li><a href="../pages/preguntas-frecuentes.html"> Preguntas frecuentes</a></li>
-                <li><a href="./dias-entregas.html"> Días y zona de entregas</a></li>
-                <li> <a href="../pages/contacto.html">Contacto</a></li>
-            </ul>
-        </nav>
-    </header>
-    <main class="entregas">
-        <h2>Días y zonas de entrega</h2>
-        <section>
-            <h3>¿Cuales son los días de reparto?</h3>
-            <p>Los pedidos se reparten los lunes y miércoles de 09 a 12 h.</p>
+                    <li class="nav-item">
+                        <a class="nav-link" href="../pages/nuestras-opciones.html">Nuestras opciones</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="../pages/preguntas-frecuentes.html">Preguntas frecuentes</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./pages/dias-entregas.html">Días y zona de entrega</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="../pages/contacto.html">Contacto</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <main class="container-fluid bg-violeta">
+        <div class="text-center">
+            <h2>Días y zonas de entrega</h2>
+        </div>
+        <section class="container">
+            <div class="d-flex flex-column justify-content-center text-center ">
+            <h2>¿Cuales son los días de reparto?</h2>
+            <p class="fs-3">Los pedidos se reparten los lunes y miércoles de 09 a 12 h.</p>
+        </div>
+        <div class="ratio ratio-16x9">
             <video src="../video/video-lunch.mp4" controls></video>
+        </div>
         </section>
+        <section class="container">
+            <div class="text-center">
+            <h2>¿Donde nos encontramos?</h2>
+            <p class="fs-3">Estamos en San Miguel de tucumán, y hacemos reparto dentro de las cuatro avenidas</p>
+        </div>
+            <div class="d-flex justify-content-center p-5">
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d8716.293870819016!2d-65.22711649318018!3d-26.826539180039422!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94223792d6c56903%3A0xf88d5b92b5c56527!2sSan%20Miguel%20de%20Tucum%C3%A1n%2C%20Tucum%C3%A1n!5e0!3m2!1ses-419!2sar!4v1662694514041!5m2!1ses-419!2sar"
+                    width="470" style="border:0;" allowfullscreen="" loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade" class="mapa"></iframe>
+            </div>
 
-        <section>
-            <h3>¿Donde nos encontramos?</h3>
-            <p>Estamos en San Miguel de tucumán, y hacemos reparto dentro de las cuatro avenidas</p>
-            <iframe
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d8716.293870819016!2d-65.22711649318018!3d-26.826539180039422!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94223792d6c56903%3A0xf88d5b92b5c56527!2sSan%20Miguel%20de%20Tucum%C3%A1n%2C%20Tucum%C3%A1n!5e0!3m2!1ses-419!2sar!4v1662694514041!5m2!1ses-419!2sar"
-                width="470" style="border:0;" allowfullscreen="" loading="lazy"
-                referrerpolicy="no-referrer-when-downgrade"></iframe>
         </section>
     </main>
 
     <footer>
-        <div>
-            <h3>Healthy Lunch</h3>
-        </div>
+        <div class="container-fluid bg-lila1">
+            <div class="container">
+                <div class="row">
+                    <div class="d-flex flex-column align-items-center p-3 col-lg-3 ">
+                        <h2>Healthy Lunch</h2>
+                        <span></span>
+                        <h4>Tucumán, Argentina</h4>
+                    </div>
+                    <div class="d-flex flex-column align-items-center col-lg-3">
+                        <ul>
+                            <li><a href="../pages/nuestras-opciones.html" class="link-dark">Nuestras opciones</a> </li>
+                            <li><a href="../pages/preguntas-frecuentes.html" class="link-dark">Preguntas frecuentes</a>
+                            </li>
+                            <li><a href="./pages/dias-entregas.html" class="link-dark"> Días y zona de entregas</a></li>
+                            <li><a href="../pages/contacto.html" class="link-dark">Contacto</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-lg-3">
+                        <h4 class="text-center"> Buscanos en nuestras redes</h4>
+                    </div>
+                    <div class="col-lg-3 fs-3 text-center d-flex justify-content-around">
+                        <i class="bi bi-facebook"></i>
+                        <i class="bi bi-instagram"></i>
+                        <i class="bi bi-twitter"></i>
+                    </div>
 
-        <div>
-            <h4>Tucumán, Argentina</h4>
-            <p><img src="../img/logophone.png" alt="logotelefono" float: left class="iconotel"> 381-56439700</p>
-        </div>
-        <div>
-            <ul>
-                <li><a href="../pages/nuestras-opciones.html">Nuestras opciones</a> </li>
-                <li><a href="./pages/preguntas-frecuentes.html">Preguntas frecuentes</a></li>
-                <li><a href="../pages/dias-entregas.html"> Días y zona de entregas</a></li>
-                <li><a href="../pages/contacto.html">Contacto</a></li>
-            </ul>
-        </div>
-        <div>
-            <h4>Nuestras redes</h4>
-            <ul>
-                <li><img src="../img/facebook-circle-logo-24.png" alt="logo facebook" float: left class="iconoface">
-                    Facebook</li>
-                <li><img src="../img/logoinsta.png" alt="logo instagram" float: left class="iconoinsta"> Instagram</li>
-                <li><img src="../img/logotwiter.png" alt="logo instagram" float: left class="iconotwitter"> twitter</li>
-            </ul>
+                </div>
+            </div>
         </div>
     </footer>
     <script src="./js/bootstrap.bundle.min.js"></script>
