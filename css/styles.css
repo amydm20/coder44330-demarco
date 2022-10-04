@@ -9,12 +9,14 @@
     background-color: rgba(103, 103, 219, 0.863);
 }
 
-.bg-violeta{
+.bg-violeta {
     background-color: rgb(152, 75, 224);
 }
-.bg-violeta1{
-   background-color: rgba(237, 234, 240, 0.616);
+
+.bg-violeta1 {
+    background-color: rgba(237, 234, 240, 0.616);
 }
+
 ul {
     list-style: none;
 }
@@ -32,7 +34,7 @@ a {
 }
 
 .portada {
-    background-image:url(../img/lunch-a-izquierda.jpg);
+    background-image: url(../img/lunch-a-izquierda.jpg);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -45,23 +47,89 @@ a {
 
 .hlp {
     font-size: 3vw;
-    background-color:rgba(237, 234, 240, 0.616);
+    background-color: rgba(237, 234, 240, 0.616);
     border-radius: 5px;
 }
-.imgc{
+
+.imgc {
     width: 180px;
     height: 180px;
     object-fit: cover;
 }
-.b-g{
-    border:solid rgb(99, 97, 97)
+
+.b-g {
+    border: solid rgb(99, 97, 97)
 }
-.c-blanco{
+
+.c-blanco {
     color: antiquewhite;
 }
-.c-negro{
+
+.c-negro {
     color: black;
 }
+
+.animacion {
+    margin: auto;
+}
+
+.titulo-animac {
+    float: center;
+    position: relative;
+}
+
+h2 span {
+    position: absolute;
+    right: 0;
+    width: 0;
+    background: rgb(152, 75, 224);
+    border-left: 1px solid #000;
+
+    animation: maquina 5s infinite alternate steps(26);
+}
+
+@keyframes maquina {
+    from {
+        width: 100%;
+    }
+
+    to {
+        width: 0%;
+    }
+}
+
+/* @media only screen and (min-width: 768px) {
+
+    .animacion {
+        margin: auto;
+    }
+
+    .titulo-animac {
+        float: center;
+        position: relative;
+    }
+
+    h2 span {
+        position: absolute;
+        right: 0;
+        width: 0;
+        background: rgb(152, 75, 224);
+        border-left: 1px solid #000;
+
+        animation: maquina 5s infinite alternate steps(26);
+    }
+
+    @keyframes maquina {
+        from {
+            width: 66%;
+        }
+
+        to {
+            width: 34%;
+        }
+    }
+} */
+
 
 /* pagina contacto */
 .contacto {
@@ -83,15 +151,6 @@ a {
     font-size: 3rem;
 }
 
-/* zona y dia de entrega */
-
-/* video {
-    height: 40vh;
-} */
-
-/* iframe {
-    height: 50vh;
-} */
 
 /* preguntas-frecuentes */
 .faq {
@@ -172,13 +231,3 @@ a {
     width: 150px;
     height: 150px;
 }
-
-/* footer */
-
-/* footer {
-    background-color: rgb(103, 103, 219);
-    color: rgb(9, 78, 50);
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-} */
