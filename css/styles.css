@@ -71,7 +71,7 @@ a {
 
 .animacion {
     margin: auto;
-    display: table;
+    display:table;
 }
 
 .titulo-animac {
@@ -79,7 +79,7 @@ a {
     position: relative;
 }
 
-h1 span {
+h2 span {
     position: absolute;
     right: 0;
     width: 0;
