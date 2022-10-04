@@ -41,15 +41,24 @@ a {
 
 }
 
+@media (min-width: 700px) {
+    .portada {
+        height: 70vh !important;
+        display: flex !important;
+        align-items: center  !important;
+    }
+    }
+    
+
 .hl {
     font-size: 4vw;
 }
 
 .hlp {
-    font-size: 3vw;
     background-color: rgba(237, 234, 240, 0.616);
     border-radius: 5px;
 }
+
 
 .imgc {
     width: 180px;
@@ -71,7 +80,7 @@ a {
 
 .animacion {
     margin: auto;
-    display:table;
+    display: table;
 }
 
 .titulo-animac {
@@ -98,21 +107,24 @@ h2 span {
         width: 0%;
     }
 }
+
 @media (max-width: 420px) {
     .titulo-animac {
-      font-size: 1.8rem !important;
+        font-size: 1.6rem !important;
     }
-  }
+}
 
 /* Estilos de las páginas que no son responsive */
-h1{
+h1 {
     font-size: 2rem;
 }
-ul{
+
+ul {
     list-style: none;
 }
-header{
-    background-color:rgba(103, 103, 219, 0.863) ;
+
+header {
+    background-color: rgba(103, 103, 219, 0.863);
     color: rgb(9, 78, 50);
     padding: 16px;
     display: flex;
@@ -120,27 +132,29 @@ header{
     align-items: baseline;
 }
 
-header nav{
+header nav {
     width: 70%;
 }
 
-header ul{
+header ul {
     display: flex;
     justify-content: space-around;
 }
-a{
+
+a {
     text-decoration: none;
-   color: black;
+    color: black;
 }
-.productos-tit{
+
+.productos-tit {
     text-align: center;
-    text-decoration:underline;
-    background-color:rgb(152, 75, 224);
+    text-decoration: underline;
+    background-color: rgb(152, 75, 224);
     font-size: 3rem;
 }
 
-.tarjeta{
-    background-color:rgb(152, 75, 224); 
+.tarjeta {
+    background-color: rgb(152, 75, 224);
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -148,8 +162,8 @@ a{
 }
 
 
-.productos-combos{
-    background-color:rgba(237, 234, 240, 0.616);
+.productos-combos {
+    background-color: rgba(237, 234, 240, 0.616);
     margin: 6px;
     padding: 5px;
     display: flex;
@@ -167,55 +181,58 @@ a{
 
 }
 
-.tarjeta_tit{
+.tarjeta_tit {
     margin-top: 7px;
     font-weight: bold;
     text-decoration: underline;
     background-color: rgba(237, 234, 240, 0.616);
     border-radius: 5px;
 }
-img{
+
+img {
     width: 140px;
 }
 
-.btn{
+.btn {
     margin-bottom: 7px;
-    border: 2px; 
-    border-color:  rgb(130, 51, 204);
+    border: 2px;
+    border-color: rgb(130, 51, 204);
     background-color: rgb(130, 51, 204);
     color: rgb(237, 234, 240);
     border-radius: 8px;
     padding: 10px;
-   
+
 }
 
-.btn:hover{
+.btn:hover {
     border: 3px rgb(130, 51, 204);
-    background-color:rgb(237, 234, 240);
+    background-color: rgb(237, 234, 240);
     color: rgb(130, 51, 204);
 }
 
-footer{
-    background-color:rgb(103, 103, 219) ;
+footer {
+    background-color: rgb(103, 103, 219);
     display: flex;
     justify-content: space-around;
     align-items: center;
 }
-.iconotel{
+
+.iconotel {
     width: 30px;
 }
 
-.iconoface{
+.iconoface {
     width: 30px;
 }
 
-.iconoinsta{
+.iconoinsta {
     width: 30px;
 }
 
-.iconotwitter{
+.iconotwitter {
     width: 30px;
 }
+
 /* pagina contacto */
 .contacto {
     background-image: url(../img/lunch-escuela.jpg);
