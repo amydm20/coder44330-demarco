@@ -6,34 +6,50 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contacto-Healthy Lunch</title>
-    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
     <link rel="stylesheet" href="../css/styles.css">
 </head>
 
 <body>
-    <header>
-        <h1><a href="../index.html"> Healthy Lunch</a></h1>
+    <nav class="navbar navbar-expand-lg bg-lila1">
+        <div class="container">
+            <a class="navbar-brand fs-2" href="./index.html">Healthy Lunch</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02"
+                aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
 
-        <nav>
-            <ul>
-                <li><a href="../pages/nuestras-opciones.html"> Nuestras opciones</a></li>
-                <li><a href="../pages/preguntas-frecuentes.html"> Preguntas frecuentes</a></li>
-                <li><a href="../pages/dias-entregas.html">Días y zona de entregas</a></li>
-                <li> <a href="./contacto.html">Contacto</a></li>
-            </ul>
-        </nav>
-    </header>
+                    <li class="nav-item">
+                        <a class="nav-link" href="../pages/nuestras-opciones.html">Nuestras opciones</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="../pages/preguntas-frecuentes.html">Preguntas frecuentes</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="../pages/dias-entregas.html">Días y zona de entrega</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./pages/contacto.html">Contacto</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
     <main class="contacto">
+
+<div class="contacto-caja">
+    <form action="">
         <h2 id="titulo-contacto">Contacto</h2>
-        <div>
-            <form action="">
-                <label for="nombre-usuario">Nombre y Apellido</label>
-                <input type="text" id="nombre-usuario" name="nombre-usuario">
+        
+        <div>   
+                <input type="text" id="nombre-usuario" name="nombre-usuario" placeholder="Nombre y Apellido">
         </div>
 
         <div>
-            <label for="email">Mail</label>
-            <input type="email" name="email" id="email">
+            <input type="email" name="email" id="email" placeholder="Mail">
         </div>
         <div>
             <label for="asunto-mail">Asunto</label>
@@ -47,46 +63,51 @@
         </div>
 
         <div>
-            <label for="escribir-consulta">Escribe tu consulta</label>
+            <label for="escribir-consulta"></label>
         </div>
         <div>
-            <textarea name="" id="escribir-consulta" cols="30" rows="10"></textarea>
+            <textarea name="" id="escribir-consulta" placeholder="Escribe tu consulta"></textarea>
         </div>
 
         <div>
             <input type="submit">
             <input type="reset">
         </div>
-        </form>
+        </form> 
+    </div>
     </main>
     <footer>
-        <div>
-            <h3>Healthy Lunch</h3>
-        </div>
+        <div class="container-fluid bg-lila1">
+            <div class="container">
+                <div class="row p-3">
+                    <div class="d-flex flex-column align-items-center p-3 col-lg-3 ">
+                        <h2>Healthy Lunch</h2>
+                        <span></span>
+                        <h4>Tucumán, Argentina</h4>
+                    </div>
+                    <div class="d-flex flex-column align-items-center col-lg-3">
+                        <ul>
+                            <li><a href="../pages/nuestras-opciones.html" class="link-dark">Nuestras opciones</a> </li>
+                            <li><a href="../pages/preguntas-frecuentes.html" class="link-dark">Preguntas frecuentes</a>
+                            </li>
+                            <li><a href="../pages/dias-entregas.html" class="link-dark"> Días y zona de entregas</a></li>
+                            <li><a href="./pages/contacto.html" class="link-dark">Contacto</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-lg-3">
+                        <h4 class="text-center"> Buscanos en nuestras redes</h4>
+                    </div>
+                    <div class="col-lg-3 fs-3 color-star text-center d-flex justify-content-around">
+                        <i class="bi bi-facebook"></i>
+                        <i class="bi bi-instagram"></i>
+                        <i class="bi bi-twitter"></i>
+                    </div>
 
-        <div>
-            <h4>Tucumán, Argentina</h4>
-            <p><img src="../img/logophone.png" alt="logotelefono" float: left class="iconotel"> 381-56439700</p>
-        </div>
-        <div>
-            <ul>
-                <li><a href="../pages/nuestras-opciones.html">Nuestras opciones</a> </li>
-                <li><a href="../pages/preguntas-frecuentes.html">Preguntas frecuentes</a></li>
-                <li><a href="../pages/dias-entregas.html"> Días y zona de entregas</a></li>
-                <li><a href="./pages/contacto.html">Contacto</a></li>
-            </ul>
-        </div>
-        <div>
-            <h4>Nuestras redes</h4>
-            <ul>
-                <li><img src="../img/facebook-circle-logo-24.png" alt="logo facebook" float: left class="iconoface">
-                    Facebook</li>
-                <li><img src="../img/logoinsta.png" alt="logo instagram" float: left class="iconoinsta"> Instagram</li>
-                <li><img src="../img/logotwiter.png" alt="logo instagram" float: left class="iconotwitter"> twitter</li>
-            </ul>
+                </div>
+            </div>
         </div>
     </footer>
-    <script src="./js/bootstrap.bundle.min.js"></script>
+    <script src="../js/bootstrap.bundle.min.js"></script>
 
 </body>
 
