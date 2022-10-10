@@ -16,6 +16,9 @@
 .bg-violeta1 {
     background-color: rgba(237, 234, 240, 0.616);
 }
+.color-star{
+color: #4a148c ;
+}
 
 ul {
     list-style: none;
@@ -63,6 +66,11 @@ a {
 .imgc {
     width: 180px;
     height: 180px;
+    object-fit: cover;
+}
+.imgc2{
+    width: 230px;
+    height: 190px;
     object-fit: cover;
 }
 
@@ -114,6 +122,10 @@ h2 span {
     }
 }
 
+/* nuestras-opciones */
+.testimonio-p{
+    font-style: italic;
+}
 /* Estilos de las páginas que no son responsive */
 h1 {
     font-size: 2rem;
