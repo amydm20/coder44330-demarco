@@ -4,7 +4,7 @@
     box-sizing: border-box;
     font-family: 'Nova Oval', cursive
 }
-
+/* generales */
 .bg-lila1 {
     background-color: rgba(103, 103, 219, 0.863);
 }
@@ -14,7 +14,10 @@
 }
 
 .bg-violeta1 {
-    background-color: rgba(237, 234, 240, 0.616);
+    background-color: rgba(237, 234, 240, 0.616) ;
+}
+.bg-trans{
+    background-color: rgba(237, 234, 240, 0.233)!important;
 }
 .color-star{
 color: #4a148c ;
@@ -23,7 +26,7 @@ color: #4a148c ;
 ul {
     list-style: none;
 }
-
+/* nav */
 .healthy {
     font-size: 2rem;
 }
@@ -85,7 +88,7 @@ a {
 .c-negro {
     color: black;
 }
-
+/* animacion */
 .animacion {
     margin: auto;
     display: table;
@@ -127,111 +130,8 @@ h2 span {
 .testimonio-p{
     font-style: italic;
 }
-/* Estilos de las páginas que no son responsive */
-/* h1 {
-    font-size: 2rem;
-}
 
-ul {
-    list-style: none;
-}
-
-header {
-    background-color: rgba(103, 103, 219, 0.863);
-    color: rgb(9, 78, 50);
-    padding: 16px;
-    display: flex;
-    justify-content: space-between;
-    align-items: baseline;
-}
-
-header nav {
-    width: 70%;
-}
-
-header ul {
-    display: flex;
-    justify-content: space-around;
-}
-
-a {
-    text-decoration: none;
-    color: black;
-}
-
-.productos-tit {
-    text-align: center;
-    text-decoration: underline;
-    background-color: rgb(152, 75, 224);
-    font-size: 3rem;
-}
-
-.tarjeta {
-    background-color: rgb(152, 75, 224);
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-
-}
-
-
-.productos-combos {
-    background-color: rgba(237, 234, 240, 0.616);
-    margin: 6px;
-    padding: 5px;
-    display: flex;
-    flex-direction: column;
-    border: 3px solid rgb(99, 97, 97);
-    width: 190px;
-    height: 350px;
-    border-radius: 10px;
-    padding: 20 px;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    text-align: center;
-    align-items: center;
-
-}
-
-.tarjeta_tit {
-    margin-top: 7px;
-    font-weight: bold;
-    text-decoration: underline;
-    background-color: rgba(237, 234, 240, 0.616);
-    border-radius: 5px;
-}
-
-img {
-    width: 140px;
-}
-
-.btn {
-    margin-bottom: 7px;
-    border: 2px;
-    border-color: rgb(130, 51, 204);
-    background-color: rgb(130, 51, 204);
-    color: rgb(237, 234, 240);
-    border-radius: 8px;
-    padding: 10px;
-
-}
-
-.btn:hover {
-    border: 3px rgb(130, 51, 204);
-    background-color: rgb(237, 234, 240);
-    color: rgb(130, 51, 204);
-}
-
-footer {
-    background-color: rgb(103, 103, 219);
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-}
-
-
-pagina contacto */
+/* pagina contacto */
  .contacto {
     background-image: url(../img/lunch-escuela.jpg);
     background-position: center;
@@ -286,15 +186,10 @@ box-sizing: border-box;
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
-    height: 80vh;
-    text-align: center;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: stretch;
+
 }
 
-.preguntas-frecuentes {
+/* .preguntas-frecuentes {
     font-size: 3rem;
     text-decoration: underline;
 }
@@ -312,50 +207,5 @@ box-sizing: border-box;
 
 .respuesta {
     font-weight: bold;
-}
+} */
 
-/* combos y valoraciones */
-
-.maincombos {
-    background-color: rgba(130, 51, 204, 0.397);
-
-}
-
-.fotos {
-    display: flex;
-    flex-direction: row;
-    justify-content: baseline;
-
-}
-
-.galeria {
-    background-color: rgb(152, 75, 224);
-
-}
-
-.clientesdicen {
-    text-align: center;
-    background-color: rgb(152, 75, 224);
-    font-size: 3rem;
-}
-
-.productos-fotos {
-    background-color: rgba(237, 234, 240, 0.616);
-    border: 1px solid rgb(65, 63, 63);
-    width: 190px;
-    height: 600px;
-    border-radius: 10px;
-    padding: 20 px;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    text-align: center;
-    align-items: center;
-    margin: 0px 5px 0px 05px;
-
-}
-
-.fotoproducto {
-    width: 150px;
-    height: 150px;
-}
