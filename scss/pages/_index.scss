@@ -4,24 +4,22 @@
     background-size: cover;
     background-repeat: no-repeat;
 
-    hl {
+    &__hl {
         font-size: 4vw;
+
     }
-    
-    hlp {
-        background-color: rgba(237, 234, 240, 0.616);
-        border-radius: 5px;
-    }
-    
+
+}
+
+.hlp {
+    background-color: rgba(237, 234, 240, 0.616);
+    border-radius: 5px;
 }
 
 @media (min-width: 700px) {
     .portada {
         height: 70vh !important;
         display: flex !important;
-        align-items: center  !important;
+        align-items: center !important;
     }
-    }
-    
-
-
+}

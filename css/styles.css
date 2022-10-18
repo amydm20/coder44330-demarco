@@ -46,10 +46,11 @@ ul a {
   background-size: cover;
   background-repeat: no-repeat;
 }
-.portada hl {
+.portada__hl {
   font-size: 4vw;
 }
-.portada hlp {
+
+.hlp {
   background-color: rgba(237, 234, 240, 0.616);
   border-radius: 5px;
 }
@@ -108,6 +109,49 @@ h2 span {
     font-size: 1.6rem !important;
   }
 }
+.contacto {
+  background-image: url(../img/lunch-escuela.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100vw;
+  text-align: center;
+}
+.contacto .contacto-caja {
+  background-color: rgba(237, 234, 240, 0.233);
+  width: 80vw;
+  margin: auto;
+  padding: 7px;
+  border-radius: 3px;
+}
+.contacto .input, .contacto textarea {
+  width: 50vw;
+  box-sizing: border-box;
+}
+
+@media (min-width: 420px) {
+  .contacto-caja {
+    font-size: 2rem;
+    width: 60vw;
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+  }
+  form {
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  input, textarea {
+    width: 35vw;
+    box-sizing: border-box;
+  }
+}
+#titulo-contacto {
+  text-align: center;
+  font-size: 3rem;
+}
+
 .bg-violeta {
   background-color: rgb(152, 75, 224);
 }
