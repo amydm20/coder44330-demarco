@@ -1,0 +1,24 @@
+$primary-color:rgb(152, 75, 224);
+
+$secondary-color:rgba(103, 103, 219, 0.863);
+
+$trans1-color: rgba(237, 234, 240, 0.616);
+
+$trans2-color: rgba(237, 234, 240, 0.233);
+
+.bg-violeta {
+    background-color: $primary-color;
+}
+
+.bg-lila1 {
+    background-color: $secondary-color
+}
+
+
+.bg-violeta1 {
+    background-color: $trans1-color;
+}
+.bg-trans{
+    background-color: $trans2-color !important;
+}
+

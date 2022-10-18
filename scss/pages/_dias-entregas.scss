@@ -1,0 +1,36 @@
+.animacion {
+    margin: auto;
+    display: table;
+}
+
+.titulo-animac {
+    float: left;
+    position: relative;
+}
+
+h2 span {
+    position: absolute;
+    right: 0;
+    width: 0;
+    background: rgb(152, 75, 224);
+    border-left: 1px solid #000;
+
+    animation: maquina 5s infinite alternate steps(27);
+}
+
+@keyframes maquina {
+    from {
+        width: 100%;
+    }
+
+    to {
+        width: 0%;
+    }
+}
+
+@media (max-width: 420px) {
+    .titulo-animac {
+        font-size: 1.6rem !important;
+    }
+
+}

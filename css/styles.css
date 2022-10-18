@@ -1,192 +1,127 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: 'Nova Oval', cursive
-}
-/* generales */
-.bg-lila1 {
-    background-color: rgba(103, 103, 219, 0.863);
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Nova Oval", cursive;
 }
 
-.bg-violeta {
-    background-color: rgb(152, 75, 224);
+.navbar__healthy {
+  font-size: 2rem;
 }
-
-.bg-violeta1 {
-    background-color: rgba(237, 234, 240, 0.616) ;
-}
-.bg-trans{
-    background-color: rgba(237, 234, 240, 0.233)!important;
-}
-.color-star{
-color: #4a148c ;
-}
-
-ul {
-    list-style: none;
-}
-/* nav */
-.healthy {
-    font-size: 2rem;
-}
-
-header nav {
-    width: 70%;
-}
-
-a {
-    text-decoration: none;
-}
-
-.portada {
-    background-image: url(../img/lunch-a-izquierda.jpg);
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-
-}
-
-@media (min-width: 700px) {
-    .portada {
-        height: 70vh !important;
-        display: flex !important;
-        align-items: center  !important;
-    }
-    }
-    
-
-.hl {
-    font-size: 4vw;
-}
-
-.hlp {
-    background-color: rgba(237, 234, 240, 0.616);
-    border-radius: 5px;
-}
-
 
 .imgc {
-    width: 180px;
-    height: 180px;
-    object-fit: cover;
+  width: 180px;
+  height: 180px;
+  object-fit: cover;
 }
-.imgc2{
-    width: 230px;
-    height: 190px;
-    object-fit: cover;
+
+.imgc2 {
+  width: 230px;
+  height: 190px;
+  object-fit: cover;
 }
 
 .b-g {
-    border: solid rgb(99, 97, 97)
+  border: solid rgb(99, 97, 97);
 }
 
 .c-blanco {
-    color: antiquewhite;
+  color: antiquewhite;
 }
 
 .c-negro {
-    color: black;
+  color: black;
 }
-/* animacion */
+
+ul {
+  list-style: none;
+}
+ul a {
+  text-decoration: none;
+}
+
+.portada {
+  background-image: url(../img/lunch-a-izquierda.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.portada hl {
+  font-size: 4vw;
+}
+.portada hlp {
+  background-color: rgba(237, 234, 240, 0.616);
+  border-radius: 5px;
+}
+
+@media (min-width: 700px) {
+  .portada {
+    height: 70vh !important;
+    display: flex !important;
+    align-items: center !important;
+  }
+}
+.testimonio-p {
+  font-style: italic;
+}
+
+.color-star {
+  color: #4a148c;
+}
+
+.faq {
+  background-image: url(../img/faq.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
 .animacion {
-    margin: auto;
-    display: table;
+  margin: auto;
+  display: table;
 }
 
 .titulo-animac {
-    float: left;
-    position: relative;
+  float: left;
+  position: relative;
 }
 
 h2 span {
-    position: absolute;
-    right: 0;
-    width: 0;
-    background: rgb(152, 75, 224);
-    border-left: 1px solid #000;
-
-    animation: maquina 5s infinite alternate steps(27);
+  position: absolute;
+  right: 0;
+  width: 0;
+  background: rgb(152, 75, 224);
+  border-left: 1px solid #000;
+  animation: maquina 5s infinite alternate steps(27);
 }
 
 @keyframes maquina {
-    from {
-        width: 100%;
-    }
-
-    to {
-        width: 0%;
-    }
+  from {
+    width: 100%;
+  }
+  to {
+    width: 0%;
+  }
 }
-
 @media (max-width: 420px) {
-    .titulo-animac {
-        font-size: 1.6rem !important;
-    }
-
+  .titulo-animac {
+    font-size: 1.6rem !important;
+  }
+}
+.bg-violeta {
+  background-color: rgb(152, 75, 224);
 }
 
-/* nuestras-opciones */
-.testimonio-p{
-    font-style: italic;
+.bg-lila1 {
+  background-color: rgba(103, 103, 219, 0.863);
 }
 
-/* pagina contacto */
- .contacto {
-    background-image: url(../img/lunch-escuela.jpg);
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    width: 100vw;
-    text-align: center;
-
-}
-.contacto-caja{
-    background-color:  rgba(237, 234, 240, 0.233);
-    width: 80vw;
-    margin: auto;
-    padding: 7px;
-    border-radius: 3px;
+.bg-violeta1 {
+  background-color: rgba(237, 234, 240, 0.616);
 }
 
-@media (min-width: 420px){
-    .contacto-caja{
-        font-size: 2rem;
-        width: 60vw;
-        padding: 10px;
-        display: flex;
-        flex-direction: row;
-        justify-content: space-evenly;   
-    }
-    form{
-        margin-top: 20px;
-        margin-bottom: 20px;
-    }
-    input, textarea {
-        width: 35vw;
-        box-sizing: border-box;
-        }
-}
-input, textarea {
-width: 50vw;
-box-sizing: border-box;
+.bg-trans {
+  background-color: rgba(237, 234, 240, 0.233) !important;
 }
 
-
-#titulo-contacto {
-    text-align: center;
-    font-size: 3rem;
-} 
-
-
-
-/* preguntas-frecuentes */
-.faq {
-    background-image: url(../img/faq.jpg);
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-
-}
-
-
+/*# sourceMappingURL=styles.css.map */
