@@ -40,6 +40,20 @@ ul a {
   text-decoration: none;
 }
 
+.btn-contacto {
+  margin: 4px;
+  padding: 4px;
+  border-radius: 7px;
+  background-color: rgb(152, 75, 224);
+  font-weight: 200;
+  border: 4px;
+  border-color: rgba(237, 234, 240, 0.233);
+}
+
+.btn-contacto:hover {
+  background-color: rgba(237, 234, 240, 0);
+}
+
 .portada {
   background-image: url(../img/lunch-a-izquierda.jpg);
   background-position: center;
@@ -123,6 +137,9 @@ h2 span {
   margin: auto;
   padding: 7px;
   border-radius: 3px;
+}
+.contacto .contacto-caja .cajaform {
+  margin: 7px;
 }
 .contacto .input, .contacto textarea {
   width: 50vw;

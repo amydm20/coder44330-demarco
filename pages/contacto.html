@@ -43,15 +43,15 @@
     <form action="">
         <h2 id="titulo-contacto">Contacto</h2>
         
-        <div>   
+        <div class="cajaform">   
                 <input type="text" id="nombre-usuario" name="nombre-usuario" placeholder="Nombre y Apellido">
         </div>
 
-        <div>
+        <div class="cajaform">
             <input type="email" name="email" id="email" placeholder="Mail">
         </div>
-        <div>
-            <label for="asunto-mail">Asunto</label>
+        <div class="cajaform">
+            <label for="asunto-mail" class="btn-contacto">Asunto</label>
             <select name="" id="asunto-mail">
                 <option value="presupuesto">Presupuesto</option>
                 <option value="consulta">Consulta</option>
@@ -61,16 +61,18 @@
             </select>
         </div>
 
-        <div>
+        <div class="cajaform">
             <label for="escribir-consulta"></label>
         </div>
-        <div>
+        <div class="cajaform">
             <textarea name="" id="escribir-consulta" placeholder="Escribe tu consulta"></textarea>
         </div>
 
-        <div>
-            <input type="submit">
-            <input type="reset">
+        <div class="cajaform">
+            <input type="submit" class="btn-contacto">
+        </div>
+        <div class="cajaform">
+            <input type="reset" class="btn-contacto" >
         </div>
         </form> 
     </div>

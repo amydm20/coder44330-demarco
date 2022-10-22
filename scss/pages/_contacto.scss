@@ -3,7 +3,7 @@
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
-    width: 100vw;
+    width: 120vw;
     text-align: center;
     
     .contacto-caja{
@@ -12,15 +12,23 @@
         margin: auto;
         padding: 7px;
         border-radius: 3px;
-    }
-    .input, textarea {
-        width: 50vw;
-        box-sizing: border-box;
+        } 
+
+        .cajaform{
+            margin: 9px;
         }
         
+        .input, textarea {
+            width: 50vw;
+            box-sizing: border-box;
+            }
+            
+
+    }
+
         
 
-}
+
 
 
 @media (min-width: 420px){
