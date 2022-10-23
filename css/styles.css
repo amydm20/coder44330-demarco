@@ -138,8 +138,10 @@ h2 span {
   padding: 7px;
   border-radius: 3px;
 }
-.contacto .contacto-caja .cajaform {
-  margin: 7px;
+.contacto .cajaform {
+  display: flex;
+  justify-content: center;
+  margin: 30px;
 }
 .contacto .input, .contacto textarea {
   width: 50vw;

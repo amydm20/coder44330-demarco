@@ -3,7 +3,7 @@
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
-    width: 120vw;
+    width: 100vw;
     text-align: center;
     
     .contacto-caja{
@@ -15,7 +15,9 @@
         } 
 
         .cajaform{
-            margin: 9px;
+            display: flex;
+            justify-content: center;
+            margin: 30px;
         }
         
         .input, textarea {
