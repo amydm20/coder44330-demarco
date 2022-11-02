@@ -6,7 +6,7 @@
 }
 
 .navbar__healthy {
-  font-size: 2rem;
+  font-size: 3rem;
 }
 
 .imgc {
@@ -31,6 +31,10 @@
 
 .c-negro {
   color: black;
+}
+
+footer a:link {
+  color: rgb(94, 12, 170) !important;
 }
 
 ul {
